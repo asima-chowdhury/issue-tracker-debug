@@ -56,7 +56,7 @@ function countIssue() {
 const fetchIssues = () => {
   const issues = JSON.parse(localStorage.getItem('issues'));
   const issuesList = document.getElementById('issuesList');
-  console.log(issues.length)
+  // console.log(issues.length);
   issuesList.innerHTML = '';
 
   for (var i = 0; i < issues.length; i++) {
